@@ -1,2 +1,7 @@
 image:
   file: .gitpod.Dockerfile
+  
+tasks:
+  - name: Setup database
+    init: |
+      gp await-port 5432
