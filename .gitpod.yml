@@ -1,6 +1,2 @@
 image:
   file: .gitpod.Dockerfile
-tasks:
-  - name: Setup postgres data
-    init: |
-        mkdir -p /workspace/.pgsql/data
